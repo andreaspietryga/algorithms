@@ -5,7 +5,7 @@ Der gesamte Code muss nur einmal ausgeführt werden. Beim Ausführen des Codes w
 
 Wie sind die Ergebnisse zu lesen und zu interpretieren? :
 
-Beispiel: wir betrachten Episode 12, dann steht V120 für die Wertefunktion in Periode 12, wenn das Produkt noch nicht eingeführt wurde.
+Beispiel: wir betrachten Episode 12, dann steht V120 für die Wertefunktion in Periode 12, wenn das Produkt noch nicht eingeführt wurde, dafür steht die 0 nach V12.
 V120
 
 {0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
