@@ -15,6 +15,6 @@ Die Gleichungen b,bb,...,l,ll die nach (*multiple Lines*) kommen, dienen zur Bes
 
 Darauf folgen die hergeleiteten Investitionspfade, die je nach eintreten des Regimewechsels realisiert werden.
 
-Bezüglich der Gewinne:
+Bezüglich der Gewinne (Beispiel):
 
 (*PI k=4*)  steht für den gesamten Gewinn, den die Firma erzielt hat, wenn der Regimewechsel bezüglich der Haftung in Periode k=4 stattfand. Um die Gewinne vergleichbar zu machen, habe ich die Gewinne vor dem Regimewechsel hinzuaddiert unter der Haftung beta=0 --> d.h. die Gewinne bis zur Periode 3 unter beta=0 und dann alle Gewinne ab Periode 4 unter beta=beta-qwer bis zu Periode 12.
