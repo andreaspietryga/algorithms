@@ -4,7 +4,9 @@ Q2o --> Nachfrage in Periode 2, wenn beta=0 und soweit kein Regimechange vorlag.
 Q2b2  --> Nachfrage in Periode 2, wenn beta=beta-quer und der Regimechange bezüglich der Haftung in Periode 2 eintrat. das "b" steht dementsprechend für Eintritt der Haftungsregelung und die 2 wann der Haftungswechsel stattfand. 
 
 (*multiple Lines *) steht wiederrum für die Befehle, die innerhalb des Gaus Seidel Verfahrens iterativ wiederholt werden müssen. Bestimmt werden hier die Schätzer für die Investitionen und beta-qwer:
+
 I2o--> Investition in Periode 2 ohne Haftungswechsel
+
 I2b2--> Investition in Periode 2, wenn Haftungswechsel in Periode 2stattfand.
 
 Die Gleichungen b,bb,...,l,ll die nach (*multiple Lines*) kommen, dienen zur Bestimmung der Genauigkeit der Schätzer. Erst wenn die Differenz aufeinander folgender Werte ungefähr 0 ergeben, ist die Schätzung gut genug.
