@@ -1,6 +1,6 @@
 Der Algorithmus "Paper1 markov Welfare" wird zur Bestimmung der Werte innerhalb der Tabelle 1.9 verwendet. Wie auch im Algorithmus für "Paper1 deterministic Welfare" und "Paper1 open loop Welfare" wird hier wiederrum das Gaus Seidel Verfahren verwendet. Der Algorithmus läuft nach dem gleichen Prinzip wie auch zuvor. Innerhalb der Innitierung werden die entsprechenden Werte angepasst, welche innerhalb des betrachteten Falls fix bleiben sollen. 
 Innerhalb der Initierung, werden ebenfalls alle für die Berechnung des "beta-qwer" benötigten Gleichungen definiert. Da es innerhalb des Markov Falls zu einem Regimechange kommen kann bezüglich der Haftung beta, muss entsprechend die Nachfrage vor und nach dem Regimechange definert werden. In diesem Sinne bedeutet
-Q2o --> Nachfrage in Periode 2, wenn beta=0 und soweit kein Regimechange vorlag
+Q2o --> Nachfrage in Periode 2, wenn beta=0 und soweit kein Regimechange vorlag.
 Q2b2  --> Nachfrage in Periode 2, wenn beta=beta-quer und der Regimechange bezüglich der Haftung in Periode 2 eintrat. das "b" steht dementsprechend für Eintritt der Haftungsregelung und die 2 wann der Haftungswechsel stattfand. 
 
 (*multiple Lines *) steht wiederrum für die Befehle, die innerhalb des Gaus Seidel Verfahrens iterativ wiederholt werden müssen. Bestimmt werden hier die Schätzer für die Investitionen und beta-qwer:
