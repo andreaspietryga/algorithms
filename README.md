@@ -1,7 +1,7 @@
 Die Datei "Paper2 Investmentproblem Open-Loop Strategy" umfasst den Code, mit der man die Open-Loop Strategie bestimmt. Was genau der Code macht, ist es die Wertefunktionen V für jede Periode zu bestimmen 
 und die optimalen Investitionen, die sich daraus ableiten lassen.
 
-Der gesamte Code muss nur einmal ausgeführt werden. Beim Ausführen des Codes werden zuerst die Variablen und Funktionen initialisiert, danach über Bachwardinduktion die Wertefunktionen und Aktionen bestimmt.
+Der gesamte Code muss nur einmal ausgeführt werden. Beim Ausführen des Codes werden zuerst die Variablen und Funktionen initialisiert, danach über Backwardinduktion die Wertefunktionen und Aktionen bestimmt.
 
 Wie sind die Ergebnisse zu lesen und zu interpretieren:
 
