@@ -8,4 +8,4 @@ totalsconst = Flatten[totalslist[[ss]]];
 
 ss steht dabei für safety stock. Für ss=1 wurde demnach 1GE investiert und das AV ist bereits eine Route abgefahren. Mit diesem "Gehirn" wird ihm aufgetragen, alle 60 Routen abzufahren ohne dabei zu lernen. Weshalb alle 60 Routen? Da wir im Vorfeld nicht wissen, welche Route das AV im nicht-lern Modus abfahren wird und alle Routen sich voneinander unterscheiden, wollen wir damit beitragen einen guten Schätzer zu erzielen. 
 
-Die Realisationen dieser Fahrten wurden in der Datei "Paper2 distribution" abgetragen und daraufhin ein Durchschnittswert gebildet für die jeweiligen safety stocks/Routen.
+Die Realisationen dieser Fahrten wurden in der Datei "Paper2 distribution" abgetragen und daraufhin ein Durchschnittswert gebildet für die jeweiligen safety stocks/Routen. Diese Daten wurden verwendet um Figures 2.5 bis 2.7 zu erstellen, sowie gingen sie bei der Berechnung in den Code für "Paper2 Investmentproblem Open-Loop Strategy" ein.
