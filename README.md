@@ -3,7 +3,7 @@ und die optimalen Investitionen, die sich daraus ableiten lassen.
 
 Der gesamte Code muss nur einmal ausgeführt werden. Beim Ausführen des Codes werden zuerst die Variablen und Funktionen initialisiert, danach über Backwardinduktion die Wertefunktionen und Aktionen bestimmt.
 
-Wie sind die Ergebnisse zu lesen und zu interpretieren:
+Wie sind die Ergebnisse zu lesen und zu interpretieren? :
 
 Beispiel: wir betrachten Episode 12, dann steht V120 für die Wertefunktion in Periode 12, wenn das Produkt noch nicht eingeführt wurde.
 V120
