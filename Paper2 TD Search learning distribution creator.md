@@ -14,8 +14,12 @@ Der eigentlich Algorithmus, TD(0) läuft im grauen Bereich des Algorithmus ab. W
 Die Ergebnisse dieser Fahrt werden, wie in den anfangs erwähnten Mengen, letztendlich abgespeichert:
 
 AppendTo[Daten`distriacc, Acclist];
+
 AppendTo[Daten`distriinapp, Inapplist];
+
 AppendTo[Daten`districrash, Crashlist];
+
 AppendTo[Daten`districounting, Countinglist];
 
 
+Die Beobachtungen, die ich gemacht habe, sind in der Datei "Paper2 distribution" unter distriacc, distriinapp, districrash, districounting zu sehen.
