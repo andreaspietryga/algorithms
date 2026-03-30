@@ -24,4 +24,4 @@ AppendTo[Daten`districrash, Crashlist];
 AppendTo[Daten`districounting, Countinglist];
 
 
-Die Realisationen dieser Läufe, die ich gemacht habe, sind in der Datei "Paper2 distribution" unter distriacc, distriinapp, districrash, districounting zu sehen. Dort wurden die insgesamt 158 Realisationen miteinander aufsummiert für die einzelnen Routen und der Durchschnitt gebildet.
+Die Realisationen dieser Läufe, die ich gemacht habe, sind in der Datei "Paper2 distribution" unter distriacc, distriinapp, districrash, districounting zu sehen. Dort wurden die insgesamt 158 Realisationen miteinander aufsummiert für die einzelnen Routen und der Durchschnitt gebildet. Diese Daten wurden verwendet um Figures 2.5 bis 2.7 zu erstellen, sowie gingen sie bei der Berechnung in den Code für "Paper2 Investmentproblem Open-Loop Strategy" ein. 
