@@ -5,7 +5,7 @@ Der gesamte Code muss nur einmal ausgeführt werden. Beim Ausführen des Codes w
 
 Wie sind die Ergebnisse zu lesen und zu interpretieren? :
 
-Beispiel: wir betrachten Episode 12, dann steht V120 für die Wertefunktion in Periode 12, wenn das Produkt noch nicht eingeführt wurde, dafür steht die 0 nach V12.
+Beispiel: wir betrachten Episode 12, dann steht V120 für die Wertefunktion in Periode 12, wenn das Produkt nicht eingeführt wird (die 0 nach V12 steht für nicht eingeführt).
 V120
 
 {0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
@@ -13,7 +13,7 @@ V120
 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
 0., 0., 0., 0., 0., 0., 0.}
 
-die Liste mit den Einträgen 0 hat eine Länge von 60 Einträgen. Jeder Eintrag beschreibt die Wertefuntion, wenn über einen entsprechenden Safetystock verfügt wird. Demnach ist der Wert der Wertefunktion zum Zeitpunkt 12
+die Liste mit den Einträgen 0 hat eine Länge von 56 Einträgen. Warum 56? Weil wir zum Zeitpunkt 12 noch nicht investiert haben, aber zu diesem Zeitpunkt maximal über einen safetystock von 55 verfügen könnten. Jeder Eintrag beschreibt den Wert der Wertefuntion, wenn über einen entsprechenden Safetystock verfügt wird. Da man auch über einen safetystock von 0 verfügen kann, demnach 56 Einträge. Demnach ist der Wert der Wertefunktion zum Zeitpunkt 12
 0 für jeden safetystock, weil in Episode 12 weiterhin nicht eingeführt wird und damit kein Gewinn erzielt wird.
 
  V120a
@@ -24,7 +24,7 @@ die Liste mit den Einträgen 0 hat eine Länge von 60 Einträgen. Jeder Eintrag 
 {0}, {0}, {0}, {0}, {0}, {0}, {0}, {0}, {0}, {0}, {0}, {0}, {0}, {0}, 
 {0}, {0}}
 
-beschreibt die optimalen Investionen zum Zeitpunkt 12 in Abhängigkeit des safetystocks über den man verfügt. Da keine Gewinne mehr erzielt werden können, sollte man daher nichts investieren.
+beschreibt die optimalen Investionen zum Zeitpunkt 12, wenn nicht eingeführt wird, in Abhängigkeit des safetystocks über den man verfügt. Da keine Gewinne mehr erzielt werden können, sollte man daher nichts investieren.
 
 
 V121 beschreibt die Wertefunktion, wenn in Periode 12 eingeführt wurde. Die 1 nach der 12 symbolisiert jetzt eingeführt.
@@ -47,7 +47,21 @@ V121a
 {2}, {1}}
 
 
-V121a beschreibt nun, welche Investitionen in Abhängigkeit des safetystocks zu wählen sind. Erst ab einem safetystock von 12 lohnt es sich überhaupt noch weiter zu investieren und zwar 4. Damit würde man am Ende über einen safetystock von 16 verfügen. 
+V121a beschreibt nun, welche Investitionen in Abhängigkeit des safetystocks zu wählen sind. Erst ab einem safetystock von 11 lohnt es sich überhaupt etwas zu investieren und zwar 4. Damit würde man am Ende über einen safetystock von 15 verfügen. 
 
 
-V1211 beschreibt nun wiederrum die Wertefunktionen in Abhängigkeit der safetystock, jedoch steht die 11 für bereits in der Vergangenheit eingeführt. Es fallen also in Periode 12 keine Eintrittskosten an.
+V1211 beschreibt nun wiederrum die Wertefunktionen in Abhängigkeit der safetystocks, jedoch steht die 11 für bereits in der Vergangenheit eingeführt. Es fallen also in Periode 12 keine Eintrittskosten an.
+
+
+
+
+
+ V10: Wertefunktion zum Zeitpunkt 1 , es wird nicht eingeführt.
+
+ {88.6465}    --> Wert der Wertefunktion, wenn man über einen safetystock von 0 verfügt.
+
+V10a
+
+ {{4, 5, both, both}}
+
+ zum Zeitpunkt 1 unter der Bedingung, dass man nicht einführt, kann man entweder 4 oder 5 investieren. Beide Investitionen sind gleichwertig. 
