@@ -1,0 +1,3 @@
+Die Algorithmen beschrieben in "Paper 3 Collusion Calvano Tabular Q", "Paper 3 Calvano Smooth Dyna Q vs Dyna Q", "Paper 3 Calvano Smooth Dyna Q vs Smooth Dyna Q" und "Paper 3 Calvano Smooth Dyna Q vs Tabluar Q"
+basieren alle auf dem Code zu Model 1. Alles was verändert wurde sind die Gewinnfunktionen und je nach Algorithmus, ob dem Algorithmus ein Model des Marketes zu Verfügung steht oder Smoothing betrieben wird oder nicht.
+Ansonsten ist die Handhabung der Algorithmen die gleiche, sowie die Beschreibung und Gewinning die gleiche. Genauere Beschreibung und Informationen finden sich in "Paper 3 Collusion with Tabular Q Learning Model 1".
