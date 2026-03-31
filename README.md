@@ -25,4 +25,10 @@ Take::take: Cannot take positions -100 through -1 in {3,6,9}.
 
 General::stop: Further output of Take::take will be suppressed during this calculation.
 
+Möchte man mehrere runs durchlaufen lassen und gucken, ob ein Equilibrium angenommen wurde, muss folgende Zeile gleich zu Beginn berücksichtig werden:
+
+For[xxx = 1, xxx < 3, xxx++,
+
+xxx beschreibt wie viele Male der gesamte Code durchlaufen soll, um ein Equilibrium zu finden, falls denn eins erreicht werden kann.
+
 Die wichtigsten Ergebnisse und welche Variablen dazu aufgerufen werden müssen, ist am Ende des codes aufgelistet und erklärt.
