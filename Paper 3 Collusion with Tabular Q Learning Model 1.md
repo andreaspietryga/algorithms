@@ -13,7 +13,7 @@ dsize1 = Position[Take[monQpricepath1, -100], 6];
 
 dsize2 = Position[Take[monQpricepath2, -100], 6];
 
-Innerhalb des Preispfad der beiden Spieler wird für die letzten 100 Episoden gezählt, wie oft der Preis 6 gewählt wurde. Wenn er nicht jeweils 100 Mal gewählt wurde, ist noch kein langfristiges Equilibrium erreicht.
+Innerhalb des Preispfad der beiden Spieler wird für die letzten 100 Episoden gezählt, wie oft der Preis 6 gewählt wurde. Wenn er nicht jeweils 100 Mal hintereinander gewählt wurde von beiden Agenten, ist noch kein langfristiges Equilibrium erreicht.
 
 Die Fehlermeldung am Ende des codes ist darauf zurückzuführen, dass der Preispfad zu Beginn des Spiels noch zu kurz ist, dsize aber dennoch bereits auf die 100 letzten Preise zurückgreifen will:
 
