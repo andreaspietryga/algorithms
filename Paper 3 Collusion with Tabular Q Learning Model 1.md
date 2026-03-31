@@ -4,7 +4,7 @@ Die Variable distribution={}; die gleich zu Beginn definiert wird, dient dazu zu
 In der Regel wird kein Equilibrium angenommen, daher haben wir eine Obergrenze definiert, wie viele Episoden durchlaufen werden dürfen:
 While[n <= 50001 && Length[dsize1] < 100 ||  n <= 50001 &&  Length[dsize2] < 100,
 
-Die While Schleife wiederholt solange das Geschehen zwischen den beiden Anbietern, bis entweder die Maximale Anzahl an Episoden erreicht wird, in diesem Fall 50000 oder aber beide Firmen 100 hintereinander den
+Die While Schleife wiederholt solange das Geschehen zwischen den beiden Anbietern, bis entweder die Maximale Anzahl an Episoden erreicht wird, in diesem Fall 50000 oder aber beide Firmen 100 Mal hintereinander den
 Equilibriumpreis (6,6) wählen. Dies wird eingefangen durch Length[dsize1] < 100 und Length[dsize2] < 100 
 
 dsize ist folgendermaßen definiert:
